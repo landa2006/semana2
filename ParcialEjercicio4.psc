@@ -1,0 +1,11 @@
+Algoritmo ejercicio4
+	Definir N, i Como Entero
+	
+	Escribir "Ingrese la cantidad de numeros pares:"
+	Leer N
+	
+	Para i <- 1 Hasta N Hacer
+		Escribir i*2
+	FinPara
+	
+FinAlgoritmo
