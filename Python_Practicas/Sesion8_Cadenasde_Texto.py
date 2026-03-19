@@ -46,7 +46,22 @@ print(music1_Mayusculas)
 music1_minuscula = music1.lower()
 print(music1_minuscula)
 
+
 mensaje = "hOlA kOMo tE VA"
 ## Capitalize a que la primera letra de cada palabra sea mayuscula
 mensajeCorrecto = mensaje.capitalize()
 print(mensajeCorrecto)
+
+## Las flipantes aventuras de tito y loli
+titulo = "Las flipantes aventuras de tito y loli"
+tituloCorrecto = titulo.title()
+print(tituloCorrecto)
+
+#### swapCase() permite cambiar entre mayusuculas y minusculas
+swapCaseTitulo = tituloCorrecto.swapcase()
+print(swapCaseTitulo)
+
+nombre = "Landaverde"
+nombre2 = "Alas"
+comparar = nombre.casefold() == nombre2.casefold()
+print(comparar)
