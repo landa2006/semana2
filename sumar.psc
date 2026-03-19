@@ -1,0 +1,18 @@
+Algoritmo sumar
+	// solicitar al usuario
+	// que ingrese dos numeros enteros
+	// y mostrar la suma de ambos.
+	Definir NumeroEntrada1, NumeroEntrada2, numeroTotal Como Entero
+	Escribir 'Ingrese numero para sumar '
+	Leer NumeroEntrada1
+	Escribir 'Ingrese un numero para sumar '
+	Leer NumeroEntrada2
+	// las condiciones logicas son las que nos va a decir si es verdadero o falso
+	// and
+	// or
+	// not
+	Si NumeroEntrada1>0 
+		total = NumeroEntrada1+NumeroEntrada2
+	FinSi
+	Escribir 'el total de la suma es ', total
+FinAlgoritmo
