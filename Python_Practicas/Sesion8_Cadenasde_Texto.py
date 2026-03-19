@@ -45,3 +45,8 @@ print(music1_Mayusculas)
 
 music1_minuscula = music1.lower()
 print(music1_minuscula)
+
+mensaje = "hOlA kOMo tE VA"
+## Capitalize a que la primera letra de cada palabra sea mayuscula
+mensajeCorrecto = mensaje.capitalize()
+print(mensajeCorrecto)
