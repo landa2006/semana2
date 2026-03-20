@@ -65,3 +65,14 @@ nombre = "Landaverde"
 nombre2 = "Alas"
 comparar = nombre.casefold() == nombre2.casefold()
 print(comparar)
+
+## metodos de validacion
+## false numeros o espacios
+## true tiene solo letras
+
+numero = "512"
+solo_letras = "El chico del apartamento"
+Coro = "biribiribanban"
+
+quieroSoloLetras = Coro.isalphaBB()
+print(quieroSoloLetras)
